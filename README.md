@@ -12,10 +12,10 @@ El proyecto principal se encuentra disponible [aquí](https://github.com/JohannP
 Para correr el servidor de autenticación, que se comunicará con el servidor de mensajes, se utiliza el siguiente comando:
 
     docker run -dp port_machine:port_container -e HOSTPORT="ip_other_machine"+ ":" + "port_other_machine" najoh2907/securesparkserviceapp
-
-## Ejemplo:
+    
+## Ejemplo
 														
-	docker run -dp 8000:6000 -e HOSTPORT=192.168.4.82:7000 najoh2907/securesparkserviceapp
+    docker run -dp 8000:6000 -e HOSTPORT=192.168.4.82:7000 najoh2907/securesparkserviceapp
 
 ## Construir Proyecto
 
