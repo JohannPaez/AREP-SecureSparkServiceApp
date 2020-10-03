@@ -29,4 +29,4 @@ Para correr el servidor de autenticación, que se comunicará con el servidor de
 
 Disponible en:
 
-- https://hub.docker.com/repository/docker/najoh2907/securesparkserviceapp
+- https://hub.docker.com/r/najoh2907/securesparkserviceapp.
